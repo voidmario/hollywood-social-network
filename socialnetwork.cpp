@@ -28,7 +28,7 @@ int main(int argc, char** argv)
     ofstream output;
 
     input.open(argv[1]);
-    movieInfo.open("cleaned_movielist.txt");
+    movieInfo.open("actordata.txt");
     output.open(argv[2]);
     
     string castInfo;
