@@ -5,7 +5,7 @@ Mario Reyes
 DESCRIPTION
 
 An edge list implementation of an undirected graph is built using IMDb movie data. An executable called
-socialnetwork is made on running "make" in the terminal. The user provides an input file where each line correspond to two actors whose 
+socialnetwork is made on running "make" in the terminal. The user provides an input file where each line corresponds to two actors whose 
 path/link will be found, if it exists. The shortest path between these two actors is found through a modified version of Breadth First Search.
 This path is then printed to the output file in the format <ACTOR> -(MOVIE)- <NEXT ACTOR>....
 
