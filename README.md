@@ -7,8 +7,9 @@ DESCRIPTION
 An edge list implementation of an undirected graph is built using IMDb movie data. An executable called
 socialnetwork is made on running "make" in the terminal. The user provides an input file where each line corresponds to two actors in the form
 "[ACTOR 1 FIRST NAME]\_[ACTOR 1 LAST NAME] [ACTOR 2 FIRST NAME]\_[ACTOR 2 LAST NAME]" whose path/link will be found, if it exists. The shortest 
-path between these two actors is found through a modified version of Breadth First Search. This path is then printed to the output file in the format
-\<ACTOR\> -(MOVIE)- \<NEXT ACTOR\>....
+path between these two actors is found through a modified version of Breadth First Search. 
+
+This path is then printed to the output file in the format \<ACTOR\> -(MOVIE)- \<NEXT ACTOR\>....
 
 -----------
 FILES
@@ -51,7 +52,7 @@ To actually run the program, it should be in the format "./socialnetwork <INPUT 
 is a text file with pairs of actor names with underscores instead of spaces and the output file is empty. Once the program 
 finishes successfully the output file will contain "Not present" if either one or both of the actors aren't present in
 the data or if there exists no path connecting both actors. It will print the actor's name if it was repeated or it will 
-print the path connecting both actors in the format <ACTOR> -(MOVIE)- <NEXT ACTOR>...
+print the path connecting both actors in the format \<ACTOR\> -(MOVIE)- \<NEXT ACTOR\>...
 
 ------------------
 SOURCES
